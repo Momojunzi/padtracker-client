@@ -1,0 +1,23 @@
+nav {
+  padding-left: 0;
+  font-family: 'Exo', sans-serif;
+  border-bottom: solid #888888 0px;
+}
+
+.nav-tabs {
+  margin-left: 0;
+  border-bottom: solid #888888 0px;
+}
+
+.nav-pills > li > a {
+  color: #28a745;
+}
+
+.nav-pills > li > a.active {
+  background-color: #28a745 !important;
+  color: #ffffff !important;
+}
+
+.nav-link-color {
+  color: #ffffff;
+}

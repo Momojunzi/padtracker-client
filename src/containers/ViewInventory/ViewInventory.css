@@ -1,0 +1,14 @@
+.view-div {
+  min-height: 80vh;
+  padding-top: 2vh;
+  background-color: white;
+   box-shadow: 1px 4px 8px #888888;
+}
+
+.table-head {
+  font-family: 'Exo', sans-serif;
+}
+
+.table th {
+  border-top: none;
+}
