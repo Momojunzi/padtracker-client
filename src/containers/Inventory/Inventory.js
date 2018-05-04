@@ -28,7 +28,11 @@ class Inventory extends Component {
       alert("invalid location!")
     }else {
       axios.post('http://35.224.248.214:3001/api/updateInventory', inventory)
-        .then((result)=>{console.log("response: " + result)});
+        .then((result)=>{
+          console.log("response: " + result);
+          window.location.reload();
+      });
+      
     }
     console.log(inventory);
   }
