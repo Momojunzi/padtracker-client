@@ -16,7 +16,7 @@ class ViewInventory extends Component {
   }
 
   getInventory = () => {
-    axios.get("http://localhost:3001/api/getInventory")
+    axios.get("http://35.224.248.214:3001/api/getInventory")
       .then(result => {
         this.setState({inventory: result.data}, ()=>{this.totalAcc()})
       })
